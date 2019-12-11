@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "发布评价",
+  "titleNView": false,
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

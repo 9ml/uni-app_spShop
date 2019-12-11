@@ -1,0 +1,558 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/mine/updatePwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/user/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/goodsInfoCT",
+			"style": {
+				"navigationBarTitleText": "商品信息(参团)",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/mine/searchMyOrder",
+			"style": {
+				"navigationBarTitleText": "搜索(订单)",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/submitOrderCT",
+			"style": {
+				"navigationBarTitleText": "提交订单(参团)",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/goodsInfoNormal",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/mine/myInvitation",
+			"style": {
+				"navigationBarTitleText": "我的邀请",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/submitOrderPT",
+			"style": {
+				"navigationBarTitleText": "提交订单(拼团)",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/curstomerService",
+		    "style" : {
+				"navigationBarTitleText":"客服",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/onlineTalk",
+		    "style" : {
+				"navigationBarTitleText":"在线咨询",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/mine/applyForRefund",
+			"style": {
+				"navigationBarTitleText": "申请退款",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/refundInfo",
+		    "style" : {
+				"navigationBarTitleText":"退款详情",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/assembleInfo",
+			"style": {
+				"navigationBarTitleText": "拼团信息",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/classificationDesc",
+			"style": {
+				"navigationBarTitleText": "分类详情",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/goodsList",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/submitOrderShopCar",
+			"style": {
+				"navigationBarTitleText": "提交订单(购物车)",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/user/login",
+		    "style" : {
+				"navigationBarTitleText":"登录",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/user/login",
+		    "style" : {
+				"navigationBarTitleText":"登录",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/user/registe",
+		    "style" : {
+				"navigationBarTitleText":"注册",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/feedBack",
+		    "style" : {
+				"navigationBarTitleText":"意见反馈",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/notice",
+		    "style" : {
+				"navigationBarTitleText":"通知",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/faBuWord",
+		    "style" : {
+				"navigationBarTitleText":"发布评价",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/orderDSH",
+		    "style" : {
+				"navigationBarTitleText":"订单详情(待收货)",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/orderDFH",
+		    "style" : {
+				"navigationBarTitleText":"订单详情(待发货)",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/orderDFK",
+		    "style" : {
+				"navigationBarTitleText":"订单详情(待付款)",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/myOrder",
+		    "style" : {
+				"navigationBarTitleText":"我的订单",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/addBankCardB",
+		    "style" : {
+				"navigationBarTitleText":"填写银行卡",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/addBankCardA",
+		    "style" : {
+				"navigationBarTitleText":"添加银行卡",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/bankCard",
+		    "style" : {
+				"navigationBarTitleText":"银行卡",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/pillMX",
+		    "style" : {
+				"navigationBarTitleText":"账单明细",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/moneyTX",
+		    "style" : {
+				"navigationBarTitleText":"余额提现",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/confirmTrade",
+		    "style" : {
+				"navigationBarTitleText":"确认交易",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/rechargeOfBalance",
+		    "style" : {
+				"navigationBarTitleText":"余额充值",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/myWallet",
+		    "style" : {
+				"navigationBarTitleText":"我的钱包",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/updateAdress",
+		    "style" : {
+				"navigationBarTitleText":"修改收货地址",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/addAdress",
+		    "style" : {
+				"navigationBarTitleText":"添加收货地址",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/myAdress",
+		    "style" : {
+				"navigationBarTitleText":"我的收货地址",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/updateName",
+		    "style" : {
+				"navigationBarTitleText":"修改昵称",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/personalData",
+		    "style" : {
+				"navigationBarTitleText":"个人资料",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/storeDetails",
+		    "style" : {
+				"navigationBarTitleText":"店铺详情",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/collection",
+		    "style" : {
+				"navigationBarTitleText":"我收藏的店铺",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/mine/mine",
+		    "style" : {
+				"navigationBarTitleText":"我的",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/shopCar/inpPayPwd",
+		    "style" : {
+				"navigationBarTitleText":"请输入支付密码",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/shopCar/chosePayStyle",
+		    "style" : {
+				"navigationBarTitleText":"选择付款方式",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/shopCar/confirmPay",
+		    "style" : {
+				"navigationBarTitleText":"确认付款",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/shopCar/shopCar",
+		    "style" : {
+				"navigationBarTitleText":"购物车",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/logisticsInfo",
+			"style": {
+				"navigationBarTitleText": "物流信息",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/orderDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/cashier",
+			"style": {
+				"navigationBarTitleText": "收银台",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/cancellationOrder",
+			"style": {
+				"navigationBarTitleText": "取消订单",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/submitOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/confirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/allComment",
+			"style": {
+				"navigationBarTitleText": "全部评价",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/goodsInfo",
+			"style": {
+				"navigationBarTitleText": "商品信息",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+		,{
+		    "path" : "pages/user/bindPhone",
+		    "style" : {
+				"navigationBarTitleText":"绑定手机",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "尚品商城",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F1F1F1"
+	},
+	"tabBar":{
+		"color":"#000000",
+		"backgroundColor":"#FFFFFF",
+		"selectedColor":"#000000",
+		"list":[
+			{
+				"pagePath" : "pages/index/index",
+				"text" : "首页",
+				"iconPath" : "static/tab_sy_n.png",
+				"selectedIconPath" : "static/tab_sy_y.png"
+			},
+			{
+				"pagePath" : "pages/shopCar/shopCar",
+				"text" : "购物车",
+				"iconPath" : "static/tab_gwc_n.png",
+				"selectedIconPath" : "static/tab_gwc_y.png"
+			},
+			{
+				"pagePath" : "pages/mine/mine",
+				"text" : "我的",
+				"iconPath" : "static/tab_wd_n.png",
+				"selectedIconPath" : "static/tab_wd_y.png"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

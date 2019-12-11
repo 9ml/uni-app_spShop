@@ -1,0 +1,103 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/updatePwd",
+    "pages/user/forget",
+    "pages/index/goodsInfoCT",
+    "pages/mine/searchMyOrder",
+    "pages/index/submitOrderCT",
+    "pages/index/goodsInfoNormal",
+    "pages/mine/myInvitation",
+    "pages/index/submitOrderPT",
+    "pages/mine/curstomerService",
+    "pages/mine/onlineTalk",
+    "pages/mine/applyForRefund",
+    "pages/mine/refundInfo",
+    "pages/index/assembleInfo",
+    "pages/index/classificationDesc",
+    "pages/index/goodsList",
+    "pages/index/submitOrderShopCar",
+    "pages/user/login",
+    "pages/user/login",
+    "pages/user/registe",
+    "pages/mine/feedBack",
+    "pages/mine/notice",
+    "pages/mine/faBuWord",
+    "pages/mine/orderDSH",
+    "pages/mine/orderDFH",
+    "pages/mine/orderDFK",
+    "pages/mine/myOrder",
+    "pages/mine/addBankCardB",
+    "pages/mine/addBankCardA",
+    "pages/mine/bankCard",
+    "pages/mine/pillMX",
+    "pages/mine/moneyTX",
+    "pages/mine/confirmTrade",
+    "pages/mine/rechargeOfBalance",
+    "pages/mine/myWallet",
+    "pages/mine/updateAdress",
+    "pages/mine/addAdress",
+    "pages/mine/myAdress",
+    "pages/mine/updateName",
+    "pages/mine/personalData",
+    "pages/mine/storeDetails",
+    "pages/mine/collection",
+    "pages/mine/mine",
+    "pages/shopCar/inpPayPwd",
+    "pages/shopCar/chosePayStyle",
+    "pages/shopCar/confirmPay",
+    "pages/shopCar/shopCar",
+    "pages/index/logisticsInfo",
+    "pages/index/orderDetails",
+    "pages/index/cashier",
+    "pages/index/cancellationOrder",
+    "pages/index/submitOrder",
+    "pages/index/confirmOrder",
+    "pages/index/allComment",
+    "pages/index/goodsInfo",
+    "pages/index/search",
+    "pages/user/bindPhone"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "尚品商城",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F1F1F1"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab_sy_n.png",
+        "selectedIconPath": "static/tab_sy_y.png"
+      },
+      {
+        "pagePath": "pages/shopCar/shopCar",
+        "text": "购物车",
+        "iconPath": "static/tab_gwc_n.png",
+        "selectedIconPath": "static/tab_gwc_y.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tab_wd_n.png",
+        "selectedIconPath": "static/tab_wd_y.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "尚品",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {
+    "validcode": "/components/uni-mm/validCode"
+  }
+}

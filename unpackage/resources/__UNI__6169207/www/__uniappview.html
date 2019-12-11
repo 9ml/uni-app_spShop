@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"尚品","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"首页","titleNView":false,"usingComponents":{}}},"pages/user/login.html":{"window":{"navigationBarTitleText":"登录","titleNView":false,"usingComponents":{}}},"pages/user/registe.html":{"window":{"navigationBarTitleText":"注册","titleNView":false,"usingComponents":{}}},"pages/mine/onlineTalk.html":{"window":{"navigationBarTitleText":"在线咨询","titleNView":false,"usingComponents":{}}},"pages/mine/feedBack.html":{"window":{"navigationBarTitleText":"意见反馈","titleNView":false,"usingComponents":{}}},"pages/mine/curstomerService.html":{"window":{"navigationBarTitleText":"客服","titleNView":false,"usingComponents":{}}},"pages/mine/notice.html":{"window":{"navigationBarTitleText":"通知","titleNView":false,"usingComponents":{}}},"pages/mine/refundInfo.html":{"window":{"navigationBarTitleText":"退款详情","titleNView":false,"usingComponents":{}}},"pages/mine/faBuWord.html":{"window":{"navigationBarTitleText":"发布评价","titleNView":false,"usingComponents":{"uni-rate":"/components/uni-rate/uni-rate"}}},"pages/mine/orderDSH.html":{"window":{"navigationBarTitleText":"订单详情(待收货)","titleNView":false,"usingComponents":{}}},"pages/mine/orderDFH.html":{"window":{"navigationBarTitleText":"订单详情(待发货)","titleNView":false,"usingComponents":{}}},"pages/mine/orderDFK.html":{"window":{"navigationBarTitleText":"订单详情(待付款)","titleNView":false,"usingComponents":{}}},"pages/mine/myOrder.html":{"window":{"navigationBarTitleText":"我的订单","titleNView":false,"usingComponents":{}}},"pages/mine/addBankCardB.html":{"window":{"navigationBarTitleText":"填写银行卡","titleNView":false,"usingComponents":{}}},"pages/mine/addBankCardA.html":{"window":{"navigationBarTitleText":"添加银行卡","titleNView":false,"usingComponents":{}}},"pages/mine/bankCard.html":{"window":{"navigationBarTitleText":"银行卡","titleNView":false,"usingComponents":{}}},"pages/mine/pillMX.html":{"window":{"navigationBarTitleText":"账单明细","titleNView":false,"usingComponents":{}}},"pages/mine/moneyTX.html":{"window":{"navigationBarTitleText":"余额提现","titleNView":false,"usingComponents":{}}},"pages/mine/confirmTrade.html":{"window":{"navigationBarTitleText":"确认交易","titleNView":false,"usingComponents":{}}},"pages/mine/rechargeOfBalance.html":{"window":{"navigationBarTitleText":"余额充值","titleNView":false,"usingComponents":{}}},"pages/mine/myWallet.html":{"window":{"navigationBarTitleText":"我的钱包","titleNView":false,"usingComponents":{}}},"pages/mine/updateAdress.html":{"window":{"navigationBarTitleText":"修改收货地址","titleNView":false,"usingComponents":{}}},"pages/mine/addAdress.html":{"window":{"navigationBarTitleText":"添加收货地址","titleNView":false,"usingComponents":{}}},"pages/mine/myAdress.html":{"window":{"navigationBarTitleText":"我的收货地址","titleNView":false,"usingComponents":{}}},"pages/mine/updateName.html":{"window":{"navigationBarTitleText":"修改昵称","titleNView":false,"usingComponents":{}}},"pages/mine/personalData.html":{"window":{"navigationBarTitleText":"个人资料","titleNView":false,"usingComponents":{}}},"pages/mine/storeDetails.html":{"window":{"navigationBarTitleText":"店铺详情","titleNView":false,"usingComponents":{}}},"pages/mine/collection.html":{"window":{"navigationBarTitleText":"我收藏的店铺","titleNView":false,"usingComponents":{}}},"pages/mine/mine.html":{"window":{"navigationBarTitleText":"我的","titleNView":false,"usingComponents":{}}},"pages/shopCar/inpPayPwd.html":{"window":{"navigationBarTitleText":"请输入支付密码","titleNView":false,"usingComponents":{"validcode":"/components/uni-mm/validCode"}}},"pages/shopCar/chosePayStyle.html":{"window":{"navigationBarTitleText":"选择付款方式","titleNView":false,"usingComponents":{}}},"pages/shopCar/confirmPay.html":{"window":{"navigationBarTitleText":"确认付款","titleNView":false,"usingComponents":{}}},"pages/shopCar/shopCar.html":{"window":{"navigationBarTitleText":"购物车","titleNView":false,"usingComponents":{}}},"pages/index/logisticsInfo.html":{"window":{"navigationBarTitleText":"物流信息","titleNView":false,"usingComponents":{}}},"pages/index/orderDetails.html":{"window":{"navigationBarTitleText":"订单详情","titleNView":false,"usingComponents":{}}},"pages/index/cashier.html":{"window":{"navigationBarTitleText":"收银台","titleNView":false,"usingComponents":{}}},"pages/index/cancellationOrder.html":{"window":{"navigationBarTitleText":"取消订单","titleNView":false,"usingComponents":{}}},"pages/index/submitOrderPT.html":{"window":{"navigationBarTitleText":"确认订单(拼团)","titleNView":false,"usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/index/submitOrder.html":{"window":{"navigationBarTitleText":"确认订单","titleNView":false,"usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/index/confirmOrder.html":{"window":{"navigationBarTitleText":"确认订单","titleNView":false,"usingComponents":{}}},"pages/index/allComment.html":{"window":{"navigationBarTitleText":"全部评价","titleNView":false,"usingComponents":{}}},"pages/index/goodsInfo.html":{"window":{"navigationBarTitleText":"商品信息","titleNView":false,"usingComponents":{"uni-popup":"/components/uni-popup/uni-popup"}}},"pages/index/search.html":{"window":{"navigationBarTitleText":"搜索","titleNView":false,"usingComponents":{}}},"pages/user/bindPhone.html":{"window":{"navigationBarTitleText":"绑定手机","titleNView":false,"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"尚品商城","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#F1F1F1"}},"tabBar":{"color":"#000000","selectedColor":"#000000","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","text":"首页","iconPath":"static/tab_sy_n.png","selectedIconPath":"static/tab_sy_y.png"},{"pagePath":"pages/shopCar/shopCar.html","text":"购物车","iconPath":"static/tab_gwc_n.png","selectedIconPath":"static/tab_gwc_y.png"},{"pagePath":"pages/mine/mine.html","text":"我的","iconPath":"static/tab_wd_n.png","selectedIconPath":"static/tab_wd_y.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/user/login","pages/user/login","pages/user/registe","pages/mine/onlineTalk","pages/mine/feedBack","pages/mine/curstomerService","pages/mine/notice","pages/mine/refundInfo","pages/mine/faBuWord","pages/mine/orderDSH","pages/mine/orderDFH","pages/mine/orderDFK","pages/mine/myOrder","pages/mine/addBankCardB","pages/mine/addBankCardA","pages/mine/bankCard","pages/mine/pillMX","pages/mine/moneyTX","pages/mine/confirmTrade","pages/mine/rechargeOfBalance","pages/mine/myWallet","pages/mine/updateAdress","pages/mine/addAdress","pages/mine/myAdress","pages/mine/updateName","pages/mine/personalData","pages/mine/storeDetails","pages/mine/collection","pages/mine/mine","pages/shopCar/inpPayPwd","pages/shopCar/chosePayStyle","pages/shopCar/confirmPay","pages/shopCar/shopCar","pages/index/logisticsInfo","pages/index/orderDetails","pages/index/cashier","pages/index/cancellationOrder","pages/index/submitOrderPT","pages/index/submitOrder","pages/index/confirmOrder","pages/index/allComment","pages/index/goodsInfo","pages/index/search","pages/user/bindPhone"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.3.3","usingComponents":{"validcode":"/components/uni-mm/validCode"}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

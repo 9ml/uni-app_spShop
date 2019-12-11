@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "提交订单(参团)",
+  "titleNView": false,
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

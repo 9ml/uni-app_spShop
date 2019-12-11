@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "请输入支付密码",
+  "titleNView": false,
+  "usingComponents": {
+    "validcode": "/components/uni-mm/validCode"
+  }
+}
