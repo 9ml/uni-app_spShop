@@ -31,7 +31,6 @@ page {
   overflow: auto;
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 .class-main .cm-left-space {
@@ -64,14 +63,11 @@ page {
       margin: 0 auto;
       display: -webkit-box;
       display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
       -webkit-align-items: center;
-          -ms-flex-align: center;
               align-items: center;
       -webkit-flex-wrap: wrap;
-          -ms-flex-wrap: wrap;
               flex-wrap: wrap;
 }
 .class-main .cm-rifht-main .crm-main .cm-item {

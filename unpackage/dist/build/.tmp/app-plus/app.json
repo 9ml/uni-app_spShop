@@ -96,7 +96,7 @@
     "autoclose": false
   },
   "appname": "尚品",
-  "compilerVersion": "2.4.2",
+  "compilerVersion": "2.5.1",
   "usingComponents": {
     "validcode": "/components/uni-mm/validCode"
   }

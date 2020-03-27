@@ -77,10 +77,25 @@
 				this.current = idx
 			},
 			surePay(){
-				
 				if(this.current === 0){
 					// 微信支付
-					
+					this._Api.wxAppPay({
+						orderNum : this.orderNum
+					},res=>{
+						console.log(res);
+						if(res.meta.code === 200){
+							uni.requestPayment({
+								provider: 'wxpay',
+								orderInfo: res.data,
+								success: function(res) {
+									console.log('success:' + JSON.stringify(res));
+								},
+								fail: function(err) {
+									console.log('fail:' + JSON.stringify(err));
+								}
+							});
+						}
+					})
 				}else if(this.current === 1){
 					// 支付宝支付
 					

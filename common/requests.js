@@ -338,6 +338,10 @@ function buildRequest(baseUrl) {
 	request.prototype.sendBankCode = function(params, callBack) {
 		post(baseUrl + '/sendCode/sendBankCode', params, callBack)
 	}
+	// 	微信支付
+	request.prototype.wxAppPay = function(params, callBack) {
+		post(baseUrl + '/weixin/wxAppPay', params, callBack)
+	}
 }
 
 export default {

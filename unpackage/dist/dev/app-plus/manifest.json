@@ -128,19 +128,19 @@
           "weixin": {
             "appid": "wx0e859ede998e325f",
             "appsecret": "f8263d1a629ef53df316a7140b45b938",
-            "UniversalLinks": ""
+            "UniversalLinks": "https://search.developer.apple.com/appsearch-validation-tool/"
           }
         },
         "share": {
           "weixin": {
             "appid": "wx0e859ede998e325f",
-            "UniversalLinks": ""
+            "UniversalLinks": "https://search.developer.apple.com/appsearch-validation-tool/"
           }
         },
         "payment": {
           "weixin": {
             "appid": "wx0e859ede998e325f",
-            "UniversalLinks": ""
+            "UniversalLinks": "https://search.developer.apple.com/appsearch-validation-tool/"
           },
           "alipay": {}
         },
@@ -161,7 +161,7 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "2.4.2",
+      "compilerVersion": "2.5.1",
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",

@@ -32,7 +32,6 @@ page {
   margin: 20rpx auto 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 .mt-top .mt-left {
@@ -72,12 +71,10 @@ page {
     border-bottom: 1rpx solid #E4E4E4;
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     text-align: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
             align-items: center;
 }
 .inp-main .im-top .it-fonts {
